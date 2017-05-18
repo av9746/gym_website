@@ -1,0 +1,62 @@
+.navbar-inverse {
+    background-color: rgba(34, 34, 34, 0.99);
+}
+.navbar {
+    min-height: 70px;
+    padding-top: 10px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+.navbar-brand {
+    font-size: 25px;
+}
+.navbar li {
+    font-size: 18px;
+
+}
+#domov a {
+    border-right: 2px solid #9d9d9d;
+}
+.navbar-inverse .navbar-brand {
+    color: #b2bbbd;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #b2bbbd;
+}
+@media (min-width: 768px){
+.navbar-nav>li>a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+}
+@media (min-width: 768px) {
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 15px;
+
+    }
+}
+/*----------HEADER DONE---------------*/
+
+.jumbotron {
+    background: url("images/IMG_0481.JPG");
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    color: white;
+    padding-top: 200px;
+}
+.jumbotron h1 {
+    margin-bottom: 30px;
+}
+#text-beneath-heading1 {
+    margin-bottom: 20px;
+}
+#happy-client {
+    margin-top: 150px;
+}
+#client-picture {
+    max-width: 200px;
+    max-height: 100px;
+}
